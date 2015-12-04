@@ -2,11 +2,11 @@ package fr.iutvalence.info.dut.m3105.pattern.structural;
 
 public interface List<E> {
 
-	public void add(int num, E elmt);
+	public void add(int pos, E elmt);
 	
-	public E remove(int num);
+	public E remove(int pos);
 	
-	public E get(int num);
+	public E get(int pos);
 	
 	public int size();
 }
